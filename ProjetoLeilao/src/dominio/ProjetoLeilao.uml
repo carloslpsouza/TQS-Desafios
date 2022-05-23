@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ktsXoNp6Eeylke4dAD0Wgg" name="ProjetoLeilao">
+    <eAnnotations xmi:id="_lISo8Np6Eeylke4dAD0Wgg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_lISo8dp6Eeylke4dAD0Wgg" source="codegen">
+        <details xmi:id="_lISo8tp6Eeylke4dAD0Wgg" key="codegenDirectory" value="/ProjetoLeilao/src"/>
+        <details xmi:id="_mF-ZMNp6Eeylke4dAD0Wgg" key="AssociatedSourceCode" value="/ProjetoLeilao/src/dominio/Avaliador.java;1489681143/1;/ProjetoLeilao/src/dominio/Lance.java;1194308634/1;/ProjetoLeilao/src/dominio/Leilao.java;2354087227/1;/ProjetoLeilao/src/dominio/Usuario.java;161451822/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_lYjSgNp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_lYjSgdp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_lYj5kNp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_lYj5kdp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_lYkgoNp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_lYkgodp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_lYkgotp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_lYlHsNp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_lYluwNp6Eeylke4dAD0Wgg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lYx8ANp6Eeylke4dAD0Wgg" name="dominio">
+      <packagedElement xmi:type="uml:Class" xmi:id="_lZj_INp6Eeylke4dAD0Wgg" name="Avaliador">
+        <ownedAttribute xmi:id="_lcbF4Np6Eeylke4dAD0Wgg" name="maiorDeTodos" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_lcbs8Np6Eeylke4dAD0Wgg" value="Double.NEGATIVE_INFINITY"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lcc7ENp6Eeylke4dAD0Wgg" name="menorDeTodos" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_lcdiINp6Eeylke4dAD0Wgg" value="Double.POSITIVE_INFINITY"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc0HcNp6Eeylke4dAD0Wgg" name="getMaiorLance" specification="_lZrT4Np6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc0ugNp6Eeylke4dAD0Wgg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return maiorDeTodos;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc4Y4Np6Eeylke4dAD0Wgg" name="getMenorLance" specification="_lZuXMNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc4Y4dp6Eeylke4dAD0Wgg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return menorDeTodos;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc4_8Np6Eeylke4dAD0Wgg" name="avalia" specification="_lcFHoNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc4_8dp6Eeylke4dAD0Wgg" name="leilao" type="_lZ7ykNp6Eeylke4dAD0Wgg"/>
+          <language>java</language>
+          <body>for(Lance lance : leilao.getLances()){&#xD;
+         if(lance.getValor() > maiorDeTodos) maiorDeTodos = lance.getValor();&#xD;
+         if (lance.getValor() &lt; menorDeTodos) menorDeTodos = lance.getValor();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lZrT4Np6Eeylke4dAD0Wgg" name="getMaiorLance" method="_lc0HcNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lZtwINp6Eeylke4dAD0Wgg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lZuXMNp6Eeylke4dAD0Wgg" name="getMenorLance" method="_lc4Y4Np6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lZvlUNp6Eeylke4dAD0Wgg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lcFHoNp6Eeylke4dAD0Wgg" name="avalia" method="_lc4_8Np6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lcFHodp6Eeylke4dAD0Wgg" name="leilao" type="_lZ7ykNp6Eeylke4dAD0Wgg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lZzPsNp6Eeylke4dAD0Wgg" name="Lance">
+        <ownedAttribute xmi:id="_lcf-YNp6Eeylke4dAD0Wgg" name="usuario" type="_laIm4Np6Eeylke4dAD0Wgg" isReadOnly="true" association="_ldGbUNp6Eeylke4dAD0Wgg"/>
+        <ownedAttribute xmi:id="_lchMgNp6Eeylke4dAD0Wgg" name="valor" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc6OENp6Eeylke4dAD0Wgg" name="Lance" specification="_lcIK8Np6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc6OEdp6Eeylke4dAD0Wgg" name="usuario" type="_laIm4Np6Eeylke4dAD0Wgg"/>
+          <ownedParameter xmi:id="_lc6OEtp6Eeylke4dAD0Wgg" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lc6OE9p6Eeylke4dAD0Wgg" type="_lZzPsNp6Eeylke4dAD0Wgg" direction="return"/>
+          <language>java</language>
+          <body>this.usuario = usuario;&#xD;
+     this.valor = valor;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lcIK8Np6Eeylke4dAD0Wgg" name="Lance" method="_lc6OENp6Eeylke4dAD0Wgg">
+          <eAnnotations xmi:id="_lcIyANp6Eeylke4dAD0Wgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lcIyAdp6Eeylke4dAD0Wgg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lcIK8dp6Eeylke4dAD0Wgg" name="usuario" type="_laIm4Np6Eeylke4dAD0Wgg"/>
+          <ownedParameter xmi:id="_lcIK8tp6Eeylke4dAD0Wgg" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lcIyAtp6Eeylke4dAD0Wgg" type="_lZzPsNp6Eeylke4dAD0Wgg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lZ7ykNp6Eeylke4dAD0Wgg" name="Leilao">
+        <ownedAttribute xmi:id="_lchzkNp6Eeylke4dAD0Wgg" name="descricao" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lcjBsNp6Eeylke4dAD0Wgg" name="lances" type="_lZzPsNp6Eeylke4dAD0Wgg" isOrdered="true" isReadOnly="true" association="_ldKFsNp6Eeylke4dAD0Wgg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lckP0Np6Eeylke4dAD0Wgg" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc9RYNp6Eeylke4dAD0Wgg" name="Leilao" specification="_laAEANp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc9RYdp6Eeylke4dAD0Wgg" name="descricao">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lc9RYtp6Eeylke4dAD0Wgg" type="_lZ7ykNp6Eeylke4dAD0Wgg" direction="return"/>
+          <language>java</language>
+          <body>this.descricao = descricao;&#xD;
+     this.lances = new ArrayList&lt;Lance>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc-fgNp6Eeylke4dAD0Wgg" name="propoe" specification="_lcU_QNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc-fgdp6Eeylke4dAD0Wgg" name="lance" type="_lZzPsNp6Eeylke4dAD0Wgg"/>
+          <language>java</language>
+          <body>lances.add(lance);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_laAEANp6Eeylke4dAD0Wgg" name="Leilao" method="_lc9RYNp6Eeylke4dAD0Wgg">
+          <eAnnotations xmi:id="_laArENp6Eeylke4dAD0Wgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_laArEdp6Eeylke4dAD0Wgg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_laAEAdp6Eeylke4dAD0Wgg" name="descricao">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_laBSINp6Eeylke4dAD0Wgg" type="_lZ7ykNp6Eeylke4dAD0Wgg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lcU_QNp6Eeylke4dAD0Wgg" name="propoe" method="_lc-fgNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lcU_Qdp6Eeylke4dAD0Wgg" name="lance" type="_lZzPsNp6Eeylke4dAD0Wgg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_laIm4Np6Eeylke4dAD0Wgg" name="Usuario">
+        <ownedAttribute xmi:id="_lcn6MNp6Eeylke4dAD0Wgg" name="id" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_lcohQNp6Eeylke4dAD0Wgg" name="nome" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lc_GkNp6Eeylke4dAD0Wgg" name="Usuario" specification="_laLDINp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_lc_Gkdp6Eeylke4dAD0Wgg" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lc_Gktp6Eeylke4dAD0Wgg" type="_laIm4Np6Eeylke4dAD0Wgg" direction="return"/>
+          <language>java</language>
+          <body>this(0, nome);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ldA7wNp6Eeylke4dAD0Wgg" name="Usuario" specification="_laM4UNp6Eeylke4dAD0Wgg">
+          <ownedParameter xmi:id="_ldA7wdp6Eeylke4dAD0Wgg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ldA7wtp6Eeylke4dAD0Wgg" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ldA7w9p6Eeylke4dAD0Wgg" type="_laIm4Np6Eeylke4dAD0Wgg" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+     this.nome = nome;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_laLDINp6Eeylke4dAD0Wgg" name="Usuario" method="_lc_GkNp6Eeylke4dAD0Wgg">
+          <eAnnotations xmi:id="_laLqMNp6Eeylke4dAD0Wgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_laLqMdp6Eeylke4dAD0Wgg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_laLDIdp6Eeylke4dAD0Wgg" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_laLqMtp6Eeylke4dAD0Wgg" type="_laIm4Np6Eeylke4dAD0Wgg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_laM4UNp6Eeylke4dAD0Wgg" name="Usuario" method="_ldA7wNp6Eeylke4dAD0Wgg">
+          <eAnnotations xmi:id="_laOGcNp6Eeylke4dAD0Wgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_laOGcdp6Eeylke4dAD0Wgg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_laNfYNp6Eeylke4dAD0Wgg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_laNfYdp6Eeylke4dAD0Wgg" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_laOGctp6Eeylke4dAD0Wgg" type="_laIm4Np6Eeylke4dAD0Wgg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ldGbUNp6Eeylke4dAD0Wgg" name="" memberEnd="_ldGbUdp6Eeylke4dAD0Wgg _lcf-YNp6Eeylke4dAD0Wgg">
+        <ownedEnd xmi:id="_ldGbUdp6Eeylke4dAD0Wgg" name="" type="_lZzPsNp6Eeylke4dAD0Wgg" association="_ldGbUNp6Eeylke4dAD0Wgg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ldKFsNp6Eeylke4dAD0Wgg" name="" memberEnd="_ldKFsdp6Eeylke4dAD0Wgg _lcjBsNp6Eeylke4dAD0Wgg">
+        <ownedEnd xmi:id="_ldKFsdp6Eeylke4dAD0Wgg" name="" type="_lZ7ykNp6Eeylke4dAD0Wgg" association="_ldKFsNp6Eeylke4dAD0Wgg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lY-JQNp6Eeylke4dAD0Wgg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lY-wUNp6Eeylke4dAD0Wgg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lcKAINp6Eeylke4dAD0Wgg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lcORkNp6Eeylke4dAD0Wgg" name="Collections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_lcQt0dp6Eeylke4dAD0Wgg" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_lIW6YNp6Eeylke4dAD0Wgg">
+      <eAnnotations xmi:id="_lIcZ8Np6Eeylke4dAD0Wgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_lIkVwNp6Eeylke4dAD0Wgg" base_Package="_ktsXoNp6Eeylke4dAD0Wgg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_lcNDcNp6Eeylke4dAD0Wgg" base_Element="_lcKAINp6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:Reference xmi:id="_lcQt0Np6Eeylke4dAD0Wgg" base_Element="_lcORkNp6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:Reference xmi:id="_lcTxINp6Eeylke4dAD0Wgg" base_Element="_lcQt0dp6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lccUANp6Eeylke4dAD0Wgg" base_Element="_lcbF4Np6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lcewQNp6Eeylke4dAD0Wgg" base_Element="_lcc7ENp6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lcjowNp6Eeylke4dAD0Wgg" base_Element="_lcjBsNp6Eeylke4dAD0Wgg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_lcld8Np6Eeylke4dAD0Wgg" name="getLances" method="_lc7cMNp6Eeylke4dAD0Wgg">
+      <ownedParameter xmi:id="_lcmFANp6Eeylke4dAD0Wgg" type="_lZzPsNp6Eeylke4dAD0Wgg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lcmFAdp6Eeylke4dAD0Wgg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_lc7cMNp6Eeylke4dAD0Wgg" name="getLances" specification="_lcld8Np6Eeylke4dAD0Wgg">
+    <ownedParameter xmi:id="_lc8qUNp6Eeylke4dAD0Wgg" type="_lZzPsNp6Eeylke4dAD0Wgg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lc8qUdp6Eeylke4dAD0Wgg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return Collections.unmodifiableList(lances);&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_ldJeoNp6Eeylke4dAD0Wgg" base_Element="_ldGbUNp6Eeylke4dAD0Wgg"/>
+  <UMLLabProfile:Reference xmi:id="_ldMh8Np6Eeylke4dAD0Wgg" base_Element="_ldKFsNp6Eeylke4dAD0Wgg"/>
+</xmi:XMI>

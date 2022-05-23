@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_kyPgcNp6Eeylke4dAD0Wgg">
+  <modelElement href="ProjetoLeilao.uml#_lYx8ANp6Eeylke4dAD0Wgg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mIRfQNp6Eeylke4dAD0Wgg" sourceAnchor="158.0,0.0" targetAnchor="139.0,118.0" target="_mGtZANp6Eeylke4dAD0Wgg" source="_mIdsgNp6Eeylke4dAD0Wgg">
+    <modelElement href="ProjetoLeilao.uml#_ldGbUNp6Eeylke4dAD0Wgg"/>
+    <stereotypes xmi:id="_mIW-0Np6Eeylke4dAD0Wgg" name="Reference">
+      <modelElement href="ProjetoLeilao.uml#_ldJeoNp6Eeylke4dAD0Wgg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mIUikNp6Eeylke4dAD0Wgg" text="">
+      <visualProperties xmi:id="_mWPCwNp6Eeylke4dAD0Wgg" position="-18.21522107746017,-99.05133445459514"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mIVJoNp6Eeylke4dAD0Wgg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetoLeilao.uml#_ldGbUdp6Eeylke4dAD0Wgg"/>
+      <visualProperties xmi:id="_mWObsNp6Eeylke4dAD0Wgg" position="-2.073702299087813,-62.16176109631385"/>
+      <visibility xmi:id="_mIbQQdp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mIbQQNp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mIVwsNp6Eeylke4dAD0Wgg" aggregationKind="NONE" name="usuario" navigable="true">
+      <modelElement href="ProjetoLeilao.uml#_lcf-YNp6Eeylke4dAD0Wgg"/>
+      <visualProperties xmi:id="_mWPp0Np6Eeylke4dAD0Wgg" position="-21.846857592136217,-164.71230976621177"/>
+      <visibility xmi:id="_mIceYdp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mIceYNp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mJDiYNp6Eeylke4dAD0Wgg" sourceAnchor="0.0,15.0" targetAnchor="316.0,77.0" target="_mIdsgNp6Eeylke4dAD0Wgg" source="_mJOhgNp6Eeylke4dAD0Wgg">
+    <modelElement href="ProjetoLeilao.uml#_ldKFsNp6Eeylke4dAD0Wgg"/>
+    <stereotypes xmi:id="_mJGlsNp6Eeylke4dAD0Wgg" name="Reference">
+      <modelElement href="ProjetoLeilao.uml#_ldMh8Np6Eeylke4dAD0Wgg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mJFXkNp6Eeylke4dAD0Wgg" text="">
+      <visualProperties xmi:id="_mWTUMNp6Eeylke4dAD0Wgg" position="-14.280517227042367,-0.5256488375046047"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mJF-oNp6Eeylke4dAD0Wgg" aggregationKind="NONE" name="">
+      <modelElement href="ProjetoLeilao.uml#_ldKFsdp6Eeylke4dAD0Wgg"/>
+      <visualProperties xmi:id="_mWRfANp6Eeylke4dAD0Wgg" position="-55.830000172760606,-11.53956738407669"/>
+      <visibility xmi:id="_mJK3Idp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJK3INp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mJF-odp6Eeylke4dAD0Wgg" aggregationKind="NONE" name="lances" navigable="true">
+      <modelElement href="ProjetoLeilao.uml#_lcjBsNp6Eeylke4dAD0Wgg"/>
+      <visualProperties xmi:id="_mWUiUNp6Eeylke4dAD0Wgg" position="23.404779409654225,-11.71845705640186"/>
+      <visibility xmi:id="_mJLeMNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJK3Itp6Eeylke4dAD0Wgg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mGtZANp6Eeylke4dAD0Wgg" name="Usuario" associationsIn="_mIRfQNp6Eeylke4dAD0Wgg">
+    <modelElement href="ProjetoLeilao.uml#_laIm4Np6Eeylke4dAD0Wgg"/>
+    <visualProperties xmi:id="_mGtZAdp6Eeylke4dAD0Wgg" position="183.0,-82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mGtZAtp6Eeylke4dAD0Wgg" label="+"/>
+    <attributes xmi:id="_mGtZA9p6Eeylke4dAD0Wgg" name="id">
+      <modelElement href="ProjetoLeilao.uml#_lcn6MNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mGtZBNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mGtZBdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mGtZBtp6Eeylke4dAD0Wgg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mGtZB9p6Eeylke4dAD0Wgg" name="nome">
+      <modelElement href="ProjetoLeilao.uml#_lcohQNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mGtZCNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mGtZCdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mGtZCtp6Eeylke4dAD0Wgg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mGtZC9p6Eeylke4dAD0Wgg" name="Usuario">
+      <modelElement href="ProjetoLeilao.uml#_laLDINp6Eeylke4dAD0Wgg"/>
+      <keywords xmi:id="_mGtZDNp6Eeylke4dAD0Wgg" keyword="create"/>
+      <visibility xmi:id="_mGtZDdp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mGtZDtp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGtZD9p6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_laLqMtp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mGtZENp6Eeylke4dAD0Wgg" name="Usuario">
+          <modelElement href="ProjetoLeilao.uml#_laIm4Np6Eeylke4dAD0Wgg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGtZEdp6Eeylke4dAD0Wgg" name="nome">
+        <modelElement href="ProjetoLeilao.uml#_laLDIdp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mGtZEtp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mGtZE9p6Eeylke4dAD0Wgg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mGtZFNp6Eeylke4dAD0Wgg" name="Usuario">
+      <modelElement href="ProjetoLeilao.uml#_laM4UNp6Eeylke4dAD0Wgg"/>
+      <keywords xmi:id="_mGtZFdp6Eeylke4dAD0Wgg" keyword="create"/>
+      <visibility xmi:id="_mGtZFtp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mGtZF9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGtZGNp6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_laOGctp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mGtZGdp6Eeylke4dAD0Wgg" name="Usuario">
+          <modelElement href="ProjetoLeilao.uml#_laIm4Np6Eeylke4dAD0Wgg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGtZGtp6Eeylke4dAD0Wgg" name="id">
+        <modelElement href="ProjetoLeilao.uml#_laNfYNp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mGtZG9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mGtZHNp6Eeylke4dAD0Wgg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGtZHdp6Eeylke4dAD0Wgg" name="nome">
+        <modelElement href="ProjetoLeilao.uml#_laNfYdp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mGtZHtp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mGtZH9p6Eeylke4dAD0Wgg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mIdsgNp6Eeylke4dAD0Wgg" name="Lance" associationsIn="_mJDiYNp6Eeylke4dAD0Wgg" associationsOut="_mIRfQNp6Eeylke4dAD0Wgg">
+    <modelElement href="ProjetoLeilao.uml#_lZzPsNp6Eeylke4dAD0Wgg"/>
+    <visualProperties xmi:id="_mIdsgdp6Eeylke4dAD0Wgg" position="164.0,91.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mIdsgtp6Eeylke4dAD0Wgg" label="+"/>
+    <attributes xmi:id="_mIdsg9p6Eeylke4dAD0Wgg" name="usuario">
+      <modelElement href="ProjetoLeilao.uml#_lcf-YNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mIdshNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mIdshdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mIdshtp6Eeylke4dAD0Wgg" name="Usuario">
+        <modelElement href="ProjetoLeilao.uml#_laIm4Np6Eeylke4dAD0Wgg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mIdsh9p6Eeylke4dAD0Wgg" name="valor">
+      <modelElement href="ProjetoLeilao.uml#_lchMgNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mIdsiNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mIdsidp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mIdsitp6Eeylke4dAD0Wgg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mIdsi9p6Eeylke4dAD0Wgg" name="Lance">
+      <modelElement href="ProjetoLeilao.uml#_lcIK8Np6Eeylke4dAD0Wgg"/>
+      <keywords xmi:id="_mIdsjNp6Eeylke4dAD0Wgg" keyword="create"/>
+      <visibility xmi:id="_mIdsjdp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mIdsjtp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mIdsj9p6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_lcIyAtp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mIdskNp6Eeylke4dAD0Wgg" name="Lance">
+          <modelElement href="ProjetoLeilao.uml#_lZzPsNp6Eeylke4dAD0Wgg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mIdskdp6Eeylke4dAD0Wgg" name="usuario">
+        <modelElement href="ProjetoLeilao.uml#_lcIK8dp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mIdsktp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mIdsk9p6Eeylke4dAD0Wgg" name="Usuario">
+          <modelElement href="ProjetoLeilao.uml#_laIm4Np6Eeylke4dAD0Wgg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mIdslNp6Eeylke4dAD0Wgg" name="valor">
+        <modelElement href="ProjetoLeilao.uml#_lcIK8tp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mIdsldp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mIdsltp6Eeylke4dAD0Wgg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mJdyENp6Eeylke4dAD0Wgg" name="Avaliador">
+    <modelElement href="ProjetoLeilao.uml#_lZj_INp6Eeylke4dAD0Wgg"/>
+    <visualProperties xmi:id="_mJdyEdp6Eeylke4dAD0Wgg" position="499.0,353.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mJdyEtp6Eeylke4dAD0Wgg" label="+"/>
+    <attributes xmi:id="_mJdyE9p6Eeylke4dAD0Wgg" defaultValue="Double.NEGATIVE_INFINITY" name="maiorDeTodos">
+      <modelElement href="ProjetoLeilao.uml#_lcbF4Np6Eeylke4dAD0Wgg"/>
+      <stereotypes xmi:id="_mJdyFNp6Eeylke4dAD0Wgg" name="LegacyStyledElement">
+        <modelElement href="ProjetoLeilao.uml#_lccUANp6Eeylke4dAD0Wgg"/>
+      </stereotypes>
+      <visibility xmi:id="_mJdyFdp6Eeylke4dAD0Wgg" label="-"/>
+      <cardinality xmi:id="_mJdyFtp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mJdyF9p6Eeylke4dAD0Wgg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mJdyGNp6Eeylke4dAD0Wgg" defaultValue="Double.POSITIVE_INFINITY" name="menorDeTodos">
+      <modelElement href="ProjetoLeilao.uml#_lcc7ENp6Eeylke4dAD0Wgg"/>
+      <stereotypes xmi:id="_mJdyGdp6Eeylke4dAD0Wgg" name="LegacyStyledElement">
+        <modelElement href="ProjetoLeilao.uml#_lcewQNp6Eeylke4dAD0Wgg"/>
+      </stereotypes>
+      <visibility xmi:id="_mJdyGtp6Eeylke4dAD0Wgg" label="-"/>
+      <cardinality xmi:id="_mJdyG9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mJdyHNp6Eeylke4dAD0Wgg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mJdyHdp6Eeylke4dAD0Wgg" name="getMaiorLance">
+      <modelElement href="ProjetoLeilao.uml#_lZrT4Np6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mJdyHtp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJdyH9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mJdyINp6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_lZtwINp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mJdyIdp6Eeylke4dAD0Wgg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mJdyItp6Eeylke4dAD0Wgg" name="getMenorLance">
+      <modelElement href="ProjetoLeilao.uml#_lZuXMNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mJdyI9p6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJdyJNp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mJdyJdp6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_lZvlUNp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mJdyJtp6Eeylke4dAD0Wgg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mJdyJ9p6Eeylke4dAD0Wgg" name="avalia">
+      <modelElement href="ProjetoLeilao.uml#_lcFHoNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mJdyKNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJdyKdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mJdyKtp6Eeylke4dAD0Wgg" name="leilao">
+        <modelElement href="ProjetoLeilao.uml#_lcFHodp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mJdyK9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mJdyLNp6Eeylke4dAD0Wgg" name="Leilao">
+          <modelElement href="ProjetoLeilao.uml#_lZ7ykNp6Eeylke4dAD0Wgg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mJOhgNp6Eeylke4dAD0Wgg" name="Leilao" associationsOut="_mJDiYNp6Eeylke4dAD0Wgg">
+    <modelElement href="ProjetoLeilao.uml#_lZ7ykNp6Eeylke4dAD0Wgg"/>
+    <visualProperties xmi:id="_mJOhgdp6Eeylke4dAD0Wgg" position="548.0,153.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mJOhgtp6Eeylke4dAD0Wgg" label="+"/>
+    <attributes xmi:id="_mJOhg9p6Eeylke4dAD0Wgg" name="descricao">
+      <modelElement href="ProjetoLeilao.uml#_lchzkNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mJOhhNp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJOhhdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <type xmi:id="_mJOhhtp6Eeylke4dAD0Wgg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mJOhh9p6Eeylke4dAD0Wgg" name="lances">
+      <modelElement href="ProjetoLeilao.uml#_lcjBsNp6Eeylke4dAD0Wgg"/>
+      <stereotypes xmi:id="_mJOhiNp6Eeylke4dAD0Wgg" name="LegacyStyledElement">
+        <modelElement href="ProjetoLeilao.uml#_lcjowNp6Eeylke4dAD0Wgg"/>
+      </stereotypes>
+      <visibility xmi:id="_mJOhidp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJOhitp6Eeylke4dAD0Wgg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_mJOhi9p6Eeylke4dAD0Wgg" name="Lance">
+        <modelElement href="ProjetoLeilao.uml#_lZzPsNp6Eeylke4dAD0Wgg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mJOhjNp6Eeylke4dAD0Wgg" name="Leilao">
+      <modelElement href="ProjetoLeilao.uml#_laAEANp6Eeylke4dAD0Wgg"/>
+      <keywords xmi:id="_mJOhjdp6Eeylke4dAD0Wgg" keyword="create"/>
+      <visibility xmi:id="_mJOhjtp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJOhj9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mJOhkNp6Eeylke4dAD0Wgg">
+        <modelElement href="ProjetoLeilao.uml#_laBSINp6Eeylke4dAD0Wgg"/>
+        <type xmi:id="_mJOhkdp6Eeylke4dAD0Wgg" name="Leilao">
+          <modelElement href="ProjetoLeilao.uml#_lZ7ykNp6Eeylke4dAD0Wgg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mJOhktp6Eeylke4dAD0Wgg" name="descricao">
+        <modelElement href="ProjetoLeilao.uml#_laAEAdp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mJOhk9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mJOhlNp6Eeylke4dAD0Wgg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mJOhldp6Eeylke4dAD0Wgg" name="propoe">
+      <modelElement href="ProjetoLeilao.uml#_lcU_QNp6Eeylke4dAD0Wgg"/>
+      <visibility xmi:id="_mJOhltp6Eeylke4dAD0Wgg" label="+"/>
+      <cardinality xmi:id="_mJOhl9p6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mJOhmNp6Eeylke4dAD0Wgg" name="lance">
+        <modelElement href="ProjetoLeilao.uml#_lcU_Qdp6Eeylke4dAD0Wgg"/>
+        <cardinality xmi:id="_mJOhmdp6Eeylke4dAD0Wgg" label="1" max="1" min="1"/>
+        <type xmi:id="_mJOhmtp6Eeylke4dAD0Wgg" name="Lance">
+          <modelElement href="ProjetoLeilao.uml#_lZzPsNp6Eeylke4dAD0Wgg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
