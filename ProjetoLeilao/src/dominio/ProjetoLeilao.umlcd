@@ -39,6 +39,9 @@
     <targetRole xmi:id="_mJF-odp6Eeylke4dAD0Wgg" aggregationKind="NONE" name="lances" navigable="true">
       <modelElement href="ProjetoLeilao.uml#_lcjBsNp6Eeylke4dAD0Wgg"/>
       <visualProperties xmi:id="_mWUiUNp6Eeylke4dAD0Wgg" position="23.404779409654225,-11.71845705640186"/>
+      <stereotypes xmi:id="_X6HxUNrkEeyS3s8Hpe86RA" name="LegacyStyledElement">
+        <modelElement href="ProjetoLeilao.uml#_lcjowNp6Eeylke4dAD0Wgg"/>
+      </stereotypes>
       <visibility xmi:id="_mJLeMNp6Eeylke4dAD0Wgg" label="+"/>
       <cardinality xmi:id="_mJK3Itp6Eeylke4dAD0Wgg" label="1..*" max="-1" min="1"/>
     </targetRole>
@@ -231,9 +234,9 @@
     </attributes>
     <attributes xmi:id="_mJOhh9p6Eeylke4dAD0Wgg" name="lances">
       <modelElement href="ProjetoLeilao.uml#_lcjBsNp6Eeylke4dAD0Wgg"/>
-      <stereotypes xmi:id="_mJOhiNp6Eeylke4dAD0Wgg" name="LegacyStyledElement">
-        <modelElement href="ProjetoLeilao.uml#_lcjowNp6Eeylke4dAD0Wgg"/>
-      </stereotypes>
+      <stereotypes xmi:id="_X6lEUNrkEeyS3s8Hpe86RA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_X6rK8NrkEeyS3s8Hpe86RA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_X6xRkNrkEeyS3s8Hpe86RA" name="LegacyStyledElement"/>
       <visibility xmi:id="_mJOhidp6Eeylke4dAD0Wgg" label="+"/>
       <cardinality xmi:id="_mJOhitp6Eeylke4dAD0Wgg" label="1..*" max="-1" min="1"/>
       <type xmi:id="_mJOhi9p6Eeylke4dAD0Wgg" name="Lance">

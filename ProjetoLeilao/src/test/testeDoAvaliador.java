@@ -1,10 +1,10 @@
-package teste;
+package test;
 
 import dominio.*;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TesteDoAvaliador {
+public class testeDoAvaliador {
     
     @Test
     public void deveEntenderLancesEmOrdemCrescente() {
@@ -29,5 +29,5 @@ public class TesteDoAvaliador {
         
         Assert.assertEquals(maiorEsperado, leiloeiro.getMaiorLance(), 0.00001);
         Assert.assertEquals(menorEsperado, leiloeiro.getMenorLance(), 0.00001);
-}
+    }
 }
