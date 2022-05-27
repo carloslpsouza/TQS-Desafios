@@ -10,7 +10,7 @@ import dominio.Usuario;
 public class Programa {
 
 	public static void main(String[] args) {
-        //Usu·rios
+        //Usu√°rios
         Usuario arthur = new Usuario("Arthur");
         Usuario emilia = new Usuario("Emilia");
         Usuario carlos = new Usuario("Carlos");
@@ -21,13 +21,23 @@ public class Programa {
         leilao.propoe(new Lance(emilia, 600.0));
         leilao.propoe(new Lance(arthur, 1400.0));
         
-        //AÁ„o
+        //A√ß√£o
         Avaliador leiloeiro = new Avaliador();
         leiloeiro.avalia(leilao);
+        System.out.println("=============================");
+        System.out.println("Leil√£o Unigranrio");
+        System.out.println("=============================");
         
-        System.out.println("Objeto do Leil„o: " + leilao.getDescricao());
+        System.out.println("Objeto do Leil√£o: " + leilao.getDescricao());
         System.out.println("Lance ganhador: " + leiloeiro.getMaiorLance());
         System.out.println("Ganhador: " + leiloeiro.getGanhador().getNome());
+        
+        System.out.println("=============================");
+        System.out.println("Lances");
+        System.out.println("=============================");
+        for(Lance lance : leilao.getLances()){
+            System.out.println(lance.getUsuario().getNome() + " - " + lance.getValor());
+        }
 	}
 
 }
